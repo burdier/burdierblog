@@ -7,6 +7,7 @@ type Post = {
     slug: Slug;
     markDown: MarkDown;
     html: HTML; 
+    date: string;
 }
 export default Post;
 

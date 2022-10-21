@@ -4,7 +4,7 @@
 <section class="container">
   <ol class="terminal-toc">
     {{#each post}}
-    <li><a href="/post/{{this.slug}}">{{this.title}}</a></li>
+    <li><a href="/post/{{this.slug}}"><p style="color:gray;font-size:0.90rem;margin-right:1rem;">{{this.date}}  </p>{{this.title}}</a></li>
     {{/each}}
   </ol>
   <section title="posts">
