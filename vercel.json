@@ -2,9 +2,9 @@
     "version": 2,
     "name": "BurdierBlog",
     "builds": [
-      { "src": "script.js", "use": "@vercel/node" }
+      { "src": "bootstrap.ts", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "*.ts", "dist": "/index.js" }
+      { "src": "*.ts", "dest": "/bootstrap.ts" }
     ]
   }
